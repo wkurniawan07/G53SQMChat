@@ -1,0 +1,10 @@
+{
+    "user1": [
+        {
+            "timestamp": 1449873189046
+            "message": "message 1"
+            "sender": "user1"
+            "recipient": "loadtest"
+        }
+    ]
+}

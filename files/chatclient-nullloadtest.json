@@ -1,0 +1,34 @@
+{
+    "user1": [
+        {
+            "timestamp": null,
+            "message": "message 1",
+            "sender": "user1",
+            "recipient": "nullloadtest"
+        },
+        {
+            "timestamp": 1449873199046,
+            "message": null,
+            "sender": "user1",
+            "recipient": "nullloadtest"
+        },
+        {
+            "timestamp": 1449873199046,
+            "message": "hacked message 1",
+            "sender": null,
+            "recipient": "nullloadtest"
+        },
+        {
+            "timestamp": 1449873274509,
+            "message": "message 2",
+            "sender": "nullloadtest",
+            "recipient": null
+        },
+        {
+            "timestamp": 1449873274509,
+            "message": "a normal one",
+            "sender": "nullloadtest",
+            "recipient": "user1"
+        }
+    ]
+}

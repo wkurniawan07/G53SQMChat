@@ -6,3 +6,5 @@ bin
 .pmd
 *.jar
 !lib/*.jar
+*.json
+!files/*.json

@@ -1,0 +1,30 @@
+{
+    "user2": [
+        {
+            "timestamp": 1449869360035,
+            "message": "message 4",
+            "sender": "user2",
+            "recipient": "savetest"
+        },
+        {
+            "timestamp": 1449869094222,
+            "message": "message 3",
+            "sender": "savetest",
+            "recipient": "user2"
+        }
+    ],
+    "user1": [
+        {
+            "timestamp": 1449873189046,
+            "message": "message 1",
+            "sender": "user1",
+            "recipient": "savetest"
+        },
+        {
+            "timestamp": 1449873274509,
+            "message": "message 2",
+            "sender": "savetest",
+            "recipient": "user1"
+        }
+    ]
+}

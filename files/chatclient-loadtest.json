@@ -1,0 +1,56 @@
+{
+    "user1": [
+        {
+            "timestamp": 1449873189046,
+            "message": "message 1",
+            "sender": "user1",
+            "recipient": "loadtest"
+        },
+        {
+            "timestamp": 1449873199046,
+            "message": "hacked message 1",
+            "sender": "user1",
+            "recipient": "user2"
+        },
+        {
+            "timestamp": 1449873274509,
+            "message": "message 2",
+            "sender": "loadtest",
+            "recipient": "user1"
+        }
+    ],
+    "user2": [
+        {
+            "timestamp": 1449869360035,
+            "message": "message 4",
+            "sender": "user2",
+            "recipient": "loadtest"
+        },
+        {
+            "timestamp": 1449869094222,
+            "message": "message 3",
+            "sender": "loadtest",
+            "recipient": "user2"
+        },
+        {
+            "timestamp": 1449869094223,
+            "message": "hacked message 2",
+            "sender": "loadtest",
+            "recipient": "user1"
+        }
+    ],
+    "user3": [
+        {
+            "timestamp": 1449869360035,
+            "message": "hacked message 3",
+            "sender": "user3",
+            "recipient": "user1"
+        },
+        {
+            "timestamp": 1449871871876,
+            "message": "hacked message 4",
+            "sender": "user2",
+            "recipient": "testload"
+        }
+    ]
+}

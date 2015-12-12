@@ -1,0 +1,44 @@
+<project name="Chat client" default="dist" basedir=".">
+    <description>
+        Ant build
+    </description>
+
+    <property name="src" location="client" />
+    <property name="test" location="client-test" />
+    <property name="build" location="build" />
+    <property name="junit" location="lib/junit.jar" />
+    <property name="hamcrest" location="lib/hamcrest-core.jar"/>
+    <property name="json" location="lib/json-20151123.jar" />
+
+    <path id="classpath.test">
+        <pathelement location="${junit}" />
+        <pathelement location="${hamcrest}" />
+        <pathelement location="${json}" />
+        <pathelement location="${build}" />
+    </path>
+
+    <target name="init">
+        <tstamp />
+        <mkdir dir="${build}" />
+    </target>
+
+    <target name="compile" depends="init" description="compile">
+        <javac includeantruntime="false" srcdir="${src}:${test}" destdir="${build}" classpathref="classpath.test" />
+    </target>
+
+    <target name="test" depends="compile">
+        <junit fork="yes" haltonfailure="true">
+            <classpath refid="classpath.test" />
+            <batchtest fork="yes" todir="tres">
+                <formatter type="brief" usefile="false" />
+                <fileset dir="${test}">
+                    <include name="**/*Test.java" />
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="clean" description="clean up" >
+        <delete dir="${build}" />
+    </target>
+</project>
