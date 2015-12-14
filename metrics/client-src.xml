@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="client" type="PackageRoot" date="2015-12-14" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Cycle name="ui et al" nodes="4" diameter="3">
+      <Package>ui</Package>
+      <Package>datatransfer</Package>
+      <Package>main</Package>
+      <Package>logic</Package>
+   </Cycle>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "1" avg = "0.043" stddev = "0.204" max = "1">
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="0"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="0"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="0"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="0"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="0"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="0"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="0"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="0"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="0"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="0"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="0"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="0"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="0"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="0"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="0"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="0"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="0"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "41" avg = "1.783" stddev = "2.021" max = "7">
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="15"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="7"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="6"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="6"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="4"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="4"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="4"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="4"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="4"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="3"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="3"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="3"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="3"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="2"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="2"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="2"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="2"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="2"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="1"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="1"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="1"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="0"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="0"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="0"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="0"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="0"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "8" avg = "0.348" stddev = "0.96" max = "4">
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="4"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="2"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="2"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="0"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="0"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="0"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="0"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="0"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="0"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="0"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="0"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="0"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="0"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="0"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="0"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="0"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="0"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="0"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="0"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "23" avg = "3.286" stddev = "2.864" max = "10">
+         <Value name="ui" package ="ui" value ="10"/>
+         <Value name="datatransfer.copy" package ="datatransfer.copy" value ="6"/>
+         <Value name="test" package ="test" value ="6"/>
+         <Value name="datatransfer" package ="datatransfer" value ="3"/>
+         <Value name="datatransfer" package ="datatransfer" value ="3"/>
+         <Value name="main" package ="main" value ="3"/>
+         <Value name="storage" package ="storage" value ="3"/>
+         <Value name="model" package ="model" value ="2"/>
+         <Value name="storage" package ="storage" value ="2"/>
+         <Value name="model" package ="model" value ="2"/>
+         <Value name="logic" package ="logic" value ="1"/>
+         <Value name="exception" package ="exception" value ="1"/>
+         <Value name="logic" package ="logic" value ="1"/>
+         <Value name="src.logic" package ="src.logic" value ="1"/>
+         <Value name="src.storage" package ="src.storage" value ="1"/>
+         <Value name="src.ui" package ="src.ui" value ="1"/>
+         <Value name="src.datatransfer" package ="src.datatransfer" value ="0"/>
+         <Value name="src.model" package ="src.model" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "684" avg = "6.275" stddev = "6.476" max = "30">
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer" value ="38"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer.copy" value ="38"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer" value ="38"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="test" value ="38"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer" value ="37"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer.copy" value ="37"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer" value ="37"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="test" value ="37"/>
+         <Value name="testGetMessage" source ="LogicTest.java" package ="logic" value ="30"/>
+         <Value name="testGetMessage" source ="LogicTest.java" package ="logic" value ="30"/>
+         <Value name="refreshUserList" source ="ChatClientUI.java" package ="ui" value ="30"/>
+         <Value name="refreshUserList" source ="MainScreen.java" package ="ui" value ="30"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer" value ="29"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer.copy" value ="29"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer" value ="29"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="test" value ="29"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="28"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="28"/>
+         <Value name="followUpAction" source ="ChatClientUI.java" package ="ui" value ="26"/>
+         <Value name="followUpAction" source ="MainScreen.java" package ="ui" value ="24"/>
+         <Value name="followUpAction" source ="ClientUI.java" package ="src.ui" value ="23"/>
+         <Value name="followUpAction" source ="ClientUI.java" package ="ui" value ="23"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer" value ="22"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer.copy" value ="22"/>
+         <Value name="getActionForMessage" source ="UIAction.java" package ="datatransfer.copy" value ="22"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer" value ="22"/>
+         <Value name="getActionForMessage" source ="UIAction.java" package ="datatransfer" value ="22"/>
+         <Value name="continueToMainActivity" source ="Client.java" package ="main" value ="22"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="test" value ="22"/>
+         <Value name="testSaveJsonStandard" source ="FileSaveTest.java" package ="storage" value ="20"/>
+         <Value name="testSaveJsonStandard" source ="FileSaveTest.java" package ="storage" value ="20"/>
+         <Value name="changeChatPartner" source ="MainScreen.java" package ="ui" value ="20"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer" value ="19"/>
+         <Value name="testParseCommand" source ="LogicTest.java" package ="logic" value ="19"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer.copy" value ="19"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer" value ="19"/>
+         <Value name="testParseCommand" source ="LogicTest.java" package ="logic" value ="19"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="test" value ="19"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="model" value ="18"/>
+         <Value name="parseAndValidateCommand" source ="Logic.java" package ="logic" value ="18"/>
+         <Value name="attemptToLogin" source ="ChatClient.java" package ="main" value ="18"/>
+         <Value name="attemptToLogin" source ="Client.java" package ="main" value ="18"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="model" value ="18"/>
+         <Value name="parseAndValidateCommand" source ="Logic.java" package ="src.logic" value ="18"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="test" value ="18"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="storage" value ="17"/>
+         <Value name="parseAndSendCommand" source ="Logic.java" package ="logic" value ="17"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="storage" value ="17"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="test" value ="17"/>
+         <Value name="refreshMessagePanel" source ="ChatClientUI.java" package ="ui" value ="17"/>
+         <Value name="refreshMessagePanel" source ="MainScreen.java" package ="ui" value ="17"/>
+         <Value name="continueToMainActivity" source ="ChatClient.java" package ="main" value ="16"/>
+         <Value name="changeChatPartner" source ="ChatClientUI.java" package ="ui" value ="16"/>
+         <Value name="changeToMainScreen" source ="ChatClientUI.java" package ="ui" value ="16"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="model" value ="15"/>
+         <Value name="getMessage" source ="Logic.java" package ="logic" value ="15"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="model" value ="15"/>
+         <Value name="getMessage" source ="Logic.java" package ="src.logic" value ="15"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="test" value ="15"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="model" value ="14"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="14"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="14"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="model" value ="14"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="test" value ="14"/>
+         <Value name="addBroadcastTextField" source ="MainScreen.java" package ="ui" value ="14"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="model" value ="13"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="model" value ="13"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="model" value ="13"/>
+         <Value name="testSaveJsonNull" source ="FileSaveTest.java" package ="storage" value ="13"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="13"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="13"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="model" value ="13"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="model" value ="13"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="model" value ="13"/>
+         <Value name="testSaveJsonNull" source ="FileSaveTest.java" package ="storage" value ="13"/>
+         <Value name="convertMessagesList" source ="FileSaver.java" package ="storage" value ="13"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="test" value ="13"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="test" value ="13"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="test" value ="13"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="13"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="12"/>
+         <Value name="convertMessagesMap" source ="FileLoader.java" package ="src.storage" value ="11"/>
+         <Value name="convertMessage" source ="FileLoader.java" package ="src.storage" value ="11"/>
+         <Value name="convertMessagesMap" source ="FileLoader.java" package ="storage" value ="11"/>
+         <Value name="convertMessage" source ="FileLoader.java" package ="storage" value ="11"/>
+         <Value name="convertMessage" source ="FileSaver.java" package ="storage" value ="11"/>
+         <Value name="addQuitButton" source ="MainScreen.java" package ="ui" value ="11"/>
+         <Value name="addRefreshButton" source ="MainScreen.java" package ="ui" value ="11"/>
+         <Value name="convertMessagesList" source ="FileLoader.java" package ="src.storage" value ="10"/>
+         <Value name="convertMessagesList" source ="FileLoader.java" package ="storage" value ="10"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="model" value ="9"/>
+         <Value name="equals" source ="ChatMessage.java" package ="model" value ="9"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="model" value ="9"/>
+         <Value name="convertMessagesMap" source ="FileSaver.java" package ="storage" value ="9"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="test" value ="9"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="8"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="8"/>
+         <Value name="paintComponent" source ="AbstractTextField.java" package ="ui" value ="8"/>
+         <Value name="addConnectionUnavailableText" source ="ChatClientUI.java" package ="ui" value ="8"/>
+         <Value name="addErrorMessagePlaceholder" source ="ChatClientUI.java" package ="ui" value ="8"/>
+         <Value name="addGoodbyeText" source ="ChatClientUI.java" package ="ui" value ="8"/>
+         <Value name="displayLoginScreen" source ="ChatClientUI.java" package ="ui" value ="8"/>
+         <Value name="addConnectionUnavailableText" source ="ConnectionErrorScreen.java" package ="ui" value ="8"/>
+         <Value name="addGoodbyeText" source ="GoodbyeScreen.java" package ="ui" value ="8"/>
+         <Value name="addErrorMessagePlaceholder" source ="LoginScreen.java" package ="ui" value ="8"/>
+         <Value name="equalsNullable" source ="ChatMessage.java" package ="model" value ="7"/>
+         <Value name="addMessageFrom" source ="Model.java" package ="model" value ="7"/>
+         <Value name="addMessageTo" source ="Model.java" package ="model" value ="7"/>
+         <Value name="parseAndSendCommand" source ="Logic.java" package ="src.logic" value ="7"/>
+         <Value name="initFont" source ="ClientUI.java" package ="src.ui" value ="7"/>
+         <Value name="addLogMessageDisplay" source ="ChatClientUI.java" package ="ui" value ="7"/>
+         <Value name="addWelcomeMessage" source ="ChatClientUI.java" package ="ui" value ="7"/>
+         <Value name="initFont" source ="ChatClientUI.java" package ="ui" value ="7"/>
+         <Value name="initFont" source ="ClientUI.java" package ="ui" value ="7"/>
+         <Value name="addWelcomeMessage" source ="LoginScreen.java" package ="ui" value ="7"/>
+         <Value name="addLogMessageDisplay" source ="MainScreen.java" package ="ui" value ="7"/>
+         <Value name="getMessageSenderAndContent" source ="Message.java" package ="datatransfer.copy" value ="6"/>
+         <Value name="getOnlineUsers" source ="Message.java" package ="datatransfer.copy" value ="6"/>
+         <Value name="getMessageSenderAndContent" source ="Message.java" package ="datatransfer" value ="6"/>
+         <Value name="getOnlineUsers" source ="Message.java" package ="datatransfer" value ="6"/>
+         <Value name="getActionNeeded" source ="Client.java" package ="main" value ="6"/>
+         <Value name="load" source ="FileLoader.java" package ="src.storage" value ="6"/>
+         <Value name="readFromFile" source ="FileLoader.java" package ="src.storage" value ="6"/>
+         <Value name="load" source ="FileLoader.java" package ="storage" value ="6"/>
+         <Value name="readFromFile" source ="FileLoader.java" package ="storage" value ="6"/>
+         <Value name="addPrivateChatTextField" source ="ChatClientUI.java" package ="ui" value ="6"/>
+         <Value name="addUsernameDisplay" source ="ChatClientUI.java" package ="ui" value ="6"/>
+         <Value name="addPrivateChatTextField" source ="MainScreen.java" package ="ui" value ="6"/>
+         <Value name="addUsernameDisplay" source ="MainScreen.java" package ="ui" value ="6"/>
+         <Value name="parseAndValidateCommandSuccessfully" source ="LogicTest.java" package ="logic" value ="5"/>
+         <Value name="parseAndValidateCommandWithoutSuccess" source ="LogicTest.java" package ="logic" value ="5"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="parseAndValidateCommandSuccessfully" source ="LogicTest.java" package ="logic" value ="5"/>
+         <Value name="parseAndValidateCommandWithoutSuccess" source ="LogicTest.java" package ="logic" value ="5"/>
+         <Value name="sendCommand" source ="ChatClient.java" package ="main" value ="5"/>
+         <Value name="sendCommand" source ="Client.java" package ="main" value ="5"/>
+         <Value name="getMessagesToAndFrom" source ="Model.java" package ="model" value ="5"/>
+         <Value name="getString" source ="FileLoader.java" package ="src.storage" value ="5"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="5"/>
+         <Value name="displayConnectionErrorScreen" source ="ClientUI.java" package ="src.ui" value ="5"/>
+         <Value name="displayGoodbyeScreen" source ="ClientUI.java" package ="src.ui" value ="5"/>
+         <Value name="displayLoginScreen" source ="ClientUI.java" package ="src.ui" value ="5"/>
+         <Value name="displayMainScreen" source ="ClientUI.java" package ="src.ui" value ="5"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="getString" source ="FileLoader.java" package ="storage" value ="5"/>
+         <Value name="save" source ="FileSaver.java" package ="storage" value ="5"/>
+         <Value name="writeToFile" source ="FileSaver.java" package ="storage" value ="5"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="test" value ="5"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="test" value ="5"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="test" value ="5"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="5"/>
+         <Value name="addBroadcastTextField" source ="ChatClientUI.java" package ="ui" value ="5"/>
+         <Value name="addQuitButton" source ="ChatClientUI.java" package ="ui" value ="5"/>
+         <Value name="addRefreshButton" source ="ChatClientUI.java" package ="ui" value ="5"/>
+         <Value name="displayConnectionErrorScreen" source ="ChatClientUI.java" package ="ui" value ="5"/>
+         <Value name="displayGoodbyeScreen" source ="ChatClientUI.java" package ="ui" value ="5"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="5"/>
+         <Value name="displayConnectionErrorScreen" source ="ClientUI.java" package ="ui" value ="5"/>
+         <Value name="displayGoodbyeScreen" source ="ClientUI.java" package ="ui" value ="5"/>
+         <Value name="displayLoginScreen" source ="ClientUI.java" package ="ui" value ="5"/>
+         <Value name="displayMainScreen" source ="ClientUI.java" package ="ui" value ="5"/>
+         <Value name="deleteTestFiles" source ="FileSaveTest.java" package ="storage" value ="4"/>
+         <Value name="isListMessage" source ="Message.java" package ="datatransfer.copy" value ="4"/>
+         <Value name="isListMessage" source ="Message.java" package ="datatransfer" value ="4"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="4"/>
+         <Value name="readFileContent" source ="FileLoader.java" package ="src.storage" value ="4"/>
+         <Value name="initMainFrame" source ="ClientUI.java" package ="src.ui" value ="4"/>
+         <Value name="readFileContent" source ="FileLoader.java" package ="storage" value ="4"/>
+         <Value name="deleteTestFiles" source ="FileSaveTest.java" package ="storage" value ="4"/>
+         <Value name="addMessagesPanel" source ="ChatClientUI.java" package ="ui" value ="4"/>
+         <Value name="addUsernameField" source ="ChatClientUI.java" package ="ui" value ="4"/>
+         <Value name="initMainFrame" source ="ChatClientUI.java" package ="ui" value ="4"/>
+         <Value name="initMainFrame" source ="ClientUI.java" package ="ui" value ="4"/>
+         <Value name="addUsernameField" source ="LoginScreen.java" package ="ui" value ="4"/>
+         <Value name="addMessagesPanel" source ="MainScreen.java" package ="ui" value ="4"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="4"/>
+         <Value name="deleteFileIfExists" source ="LogicTest.java" package ="logic" value ="3"/>
+         <Value name="assertFileEquals" source ="FileSaveTest.java" package ="storage" value ="3"/>
+         <Value name="delete" source ="FileSaveTest.java" package ="storage" value ="3"/>
+         <Value name="validateHailCommandFormat" source ="Logic.java" package ="logic" value ="3"/>
+         <Value name="validateIdenCommandFormat" source ="Logic.java" package ="logic" value ="3"/>
+         <Value name="validateMesgCommandFormat" source ="Logic.java" package ="logic" value ="3"/>
+         <Value name="deleteFileIfExists" source ="LogicTest.java" package ="logic" value ="3"/>
+         <Value name="isInvalid" source ="ChatMessage.java" package ="model" value ="3"/>
+         <Value name="validateHailCommandFormat" source ="Logic.java" package ="src.logic" value ="3"/>
+         <Value name="validateIdenCommandFormat" source ="Logic.java" package ="src.logic" value ="3"/>
+         <Value name="validateMesgCommandFormat" source ="Logic.java" package ="src.logic" value ="3"/>
+         <Value name="addContentPanel" source ="ClientUI.java" package ="src.ui" value ="3"/>
+         <Value name="assertFileEquals" source ="FileSaveTest.java" package ="storage" value ="3"/>
+         <Value name="delete" source ="FileSaveTest.java" package ="storage" value ="3"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="3"/>
+         <Value name="actionPerformed" source ="BroadcastAction.java" package ="ui" value ="3"/>
+         <Value name="addContentPanel" source ="ChatClientUI.java" package ="ui" value ="3"/>
+         <Value name="addUsersPanel" source ="ChatClientUI.java" package ="ui" value ="3"/>
+         <Value name="addContentPanel" source ="ClientUI.java" package ="ui" value ="3"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="3"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="3"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="3"/>
+         <Value name="actionPerformed" source ="LoginAction.java" package ="ui" value ="3"/>
+         <Value name="addUsersPanel" source ="MainScreen.java" package ="ui" value ="3"/>
+         <Value name="actionPerformed" source ="PrivateChatAction.java" package ="ui" value ="3"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="2"/>
+         <Value name="getActionNeeded" source ="Logic.java" package ="logic" value ="2"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="2"/>
+         <Value name="getActionNeeded" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="2"/>
+         <Value name="addEnterListenerToBroadcastTextField" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="addEnterListenerToPrivateChatTextField" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="addEnterListenerToUsernameField" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="addEnterListenerToUsernameField" source ="LoginScreen.java" package ="ui" value ="2"/>
+         <Value name="addEnterListenerToPrivateChatTextField" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="2"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="2"/>
+         <Value name="setUp" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="tearDown" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="getFilePath" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="setUp" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="tearDown" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getCommandContent" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandFullContent" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandType" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessageContent" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessageType" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isChatMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isMessageSentMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isQuitMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessage" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getType" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandContent" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="getCommandFullContent" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="getCommandType" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessageContent" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessageType" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isChatMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isMessageSentMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isQuitMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessage" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="getType" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessage" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getUsersList" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="setUp" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="tearDown" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="isUsernameInWrongFormat" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Client.java" package ="main" value ="1"/>
+         <Value name="isUsernameInWrongFormat" source ="Client.java" package ="main" value ="1"/>
+         <Value name="main" source ="Runner.java" package ="main" value ="1"/>
+         <Value name="compareTo" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getMessage" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getRecipient" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getSender" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getTimestamp" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getPartnerToMessagesMap" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getUsersList" source ="Model.java" package ="model" value ="1"/>
+         <Value name="updateUserList" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getMessage" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getUsersList" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="presentToUser" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="getFilePath" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="setUp" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="tearDown" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="presentToUser" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="printUsernameResponse" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="1"/>
+         <Value name="setPlaceholderMsg" source ="ChatTextField.java" package ="ui" value ="1"/>
+         <Value name="presentToUser" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="printUsernameResponse" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="QuitButtonAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="RefreshButtonAction.java" package ="ui" value ="1"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="1"/>
+         <Value name="convertMessagesList" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="convertMessagesMap" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="convertMessage" source ="AbstractConverter.java" package ="storage" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "104" avg = "4.522" stddev = "3.966" max = "14">
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="30"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="14"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="11"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="11"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="10"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="10"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="9"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="8"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="7"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="7"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="7"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="7"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="7"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="6"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="6"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="6"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="5"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="4"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="4"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="4"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="4"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="4"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="4"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="4"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="3"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="3"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="3"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="3"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="3"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="3"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="3"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="3"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="3"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="3"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="3"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="3"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="2"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="2"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="2"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="2"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="2"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="2"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="2"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="2"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="2"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="1"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="1"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="0"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="0"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.422" stddev = "0.708" max = "4">
+         <Value name="attemptToLogin" source ="Client.java" package ="main" value ="4"/>
+         <Value name="getMessage" source ="Logic.java" package ="logic" value ="3"/>
+         <Value name="parseAndSendCommand" source ="Logic.java" package ="logic" value ="3"/>
+         <Value name="attemptToLogin" source ="ChatClient.java" package ="main" value ="3"/>
+         <Value name="continueToMainActivity" source ="ChatClient.java" package ="main" value ="3"/>
+         <Value name="continueToMainActivity" source ="Client.java" package ="main" value ="3"/>
+         <Value name="addMessageFrom" source ="Model.java" package ="model" value ="3"/>
+         <Value name="addMessageTo" source ="Model.java" package ="model" value ="3"/>
+         <Value name="getMessage" source ="Logic.java" package ="src.logic" value ="3"/>
+         <Value name="convertMessagesList" source ="FileLoader.java" package ="src.storage" value ="3"/>
+         <Value name="convertMessagesMap" source ="FileLoader.java" package ="src.storage" value ="3"/>
+         <Value name="convertMessagesList" source ="FileLoader.java" package ="storage" value ="3"/>
+         <Value name="convertMessagesMap" source ="FileLoader.java" package ="storage" value ="3"/>
+         <Value name="changeChatPartner" source ="MainScreen.java" package ="ui" value ="3"/>
+         <Value name="deleteFileIfExists" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="parseAndValidateCommandSuccessfully" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="parseAndValidateCommandWithoutSuccess" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="delete" source ="FileSaveTest.java" package ="storage" value ="2"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="getMessageSenderAndContent" source ="Message.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="getOnlineUsers" source ="Message.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="getActionForMessage" source ="UIAction.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="2"/>
+         <Value name="getMessageSenderAndContent" source ="Message.java" package ="datatransfer" value ="2"/>
+         <Value name="getOnlineUsers" source ="Message.java" package ="datatransfer" value ="2"/>
+         <Value name="getActionForMessage" source ="UIAction.java" package ="datatransfer" value ="2"/>
+         <Value name="validateHailCommandFormat" source ="Logic.java" package ="logic" value ="2"/>
+         <Value name="validateIdenCommandFormat" source ="Logic.java" package ="logic" value ="2"/>
+         <Value name="validateMesgCommandFormat" source ="Logic.java" package ="logic" value ="2"/>
+         <Value name="deleteFileIfExists" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="parseAndValidateCommandSuccessfully" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="parseAndValidateCommandWithoutSuccess" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="2"/>
+         <Value name="sendCommand" source ="ChatClient.java" package ="main" value ="2"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="2"/>
+         <Value name="getActionNeeded" source ="Client.java" package ="main" value ="2"/>
+         <Value name="sendCommand" source ="Client.java" package ="main" value ="2"/>
+         <Value name="equalsNullable" source ="ChatMessage.java" package ="model" value ="2"/>
+         <Value name="equals" source ="ChatMessage.java" package ="model" value ="2"/>
+         <Value name="getMessagesToAndFrom" source ="Model.java" package ="model" value ="2"/>
+         <Value name="parseAndSendCommand" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="validateHailCommandFormat" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="validateIdenCommandFormat" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="validateMesgCommandFormat" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="convertMessage" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="getString" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="load" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="readFromFile" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="followUpAction" source ="ClientUI.java" package ="src.ui" value ="2"/>
+         <Value name="initFont" source ="ClientUI.java" package ="src.ui" value ="2"/>
+         <Value name="convertMessage" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="getString" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="load" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="readFromFile" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="delete" source ="FileSaveTest.java" package ="storage" value ="2"/>
+         <Value name="convertMessagesList" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="convertMessage" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="save" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="paintComponent" source ="AbstractTextField.java" package ="ui" value ="2"/>
+         <Value name="changeChatPartner" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="followUpAction" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="initFont" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="refreshMessagePanel" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="refreshUserList" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="followUpAction" source ="ClientUI.java" package ="ui" value ="2"/>
+         <Value name="initFont" source ="ClientUI.java" package ="ui" value ="2"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="2"/>
+         <Value name="addBroadcastTextField" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="addQuitButton" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="addRefreshButton" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="followUpAction" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="refreshMessagePanel" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="refreshUserList" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="setUp" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="tearDown" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testGetMessage" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testParseCommand" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="assertFileEquals" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="deleteTestFiles" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFilePath" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="setUp" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="tearDown" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="testSaveJsonNull" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="testSaveJsonStandard" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandContent" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandFullContent" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandType" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessageContent" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessageType" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isChatMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isListMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isMessageSentMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isQuitMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessage" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getType" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="getCommandContent" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="getCommandFullContent" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="getCommandType" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessageContent" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessageType" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isChatMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isListMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isMessageSentMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isQuitMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessage" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="getType" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getActionNeeded" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getMessage" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getUsersList" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="parseAndValidateCommand" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="setUp" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="tearDown" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testGetMessage" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testParseCommand" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="isUsernameInWrongFormat" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Client.java" package ="main" value ="1"/>
+         <Value name="isUsernameInWrongFormat" source ="Client.java" package ="main" value ="1"/>
+         <Value name="main" source ="Runner.java" package ="main" value ="1"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="compareTo" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getMessage" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getRecipient" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getSender" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getTimestamp" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="isInvalid" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="1"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getPartnerToMessagesMap" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getUsersList" source ="Model.java" package ="model" value ="1"/>
+         <Value name="updateUserList" source ="Model.java" package ="model" value ="1"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getActionNeeded" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getMessage" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getUsersList" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="parseAndValidateCommand" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="readFileContent" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="addContentPanel" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayConnectionErrorScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayMainScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="initMainFrame" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="presentToUser" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="readFileContent" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="assertFileEquals" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="deleteTestFiles" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFilePath" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="setUp" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="tearDown" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="testSaveJsonNull" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="testSaveJsonStandard" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="convertMessagesMap" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="writeToFile" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="test" value ="1"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="test" value ="1"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="test" value ="1"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="test" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="test" value ="1"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="test" value ="1"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="test" value ="1"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="test" value ="1"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="1"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="BroadcastAction.java" package ="ui" value ="1"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addBroadcastTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addConnectionUnavailableText" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addContentPanel" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToBroadcastTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToPrivateChatTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToUsernameField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addErrorMessagePlaceholder" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addGoodbyeText" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addLogMessageDisplay" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addMessagesPanel" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addPrivateChatTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addQuitButton" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addRefreshButton" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addUsernameDisplay" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addUsernameField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addUsersPanel" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addWelcomeMessage" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="changeToMainScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayConnectionErrorScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="initMainFrame" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="presentToUser" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="printUsernameResponse" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="1"/>
+         <Value name="setPlaceholderMsg" source ="ChatTextField.java" package ="ui" value ="1"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="addContentPanel" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayConnectionErrorScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayMainScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="initMainFrame" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="presentToUser" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="1"/>
+         <Value name="addConnectionUnavailableText" source ="ConnectionErrorScreen.java" package ="ui" value ="1"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="1"/>
+         <Value name="addGoodbyeText" source ="GoodbyeScreen.java" package ="ui" value ="1"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="LoginAction.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToUsernameField" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addErrorMessagePlaceholder" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addUsernameField" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addWelcomeMessage" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="printUsernameResponse" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToPrivateChatTextField" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addLogMessageDisplay" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addMessagesPanel" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addPrivateChatTextField" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addUsernameDisplay" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addUsersPanel" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="PrivateChatAction.java" package ="ui" value ="1"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="QuitButtonAction.java" package ="ui" value ="1"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="RefreshButtonAction.java" package ="ui" value ="1"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="1"/>
+         <Value name="convertMessagesList" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="convertMessagesMap" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="convertMessage" source ="AbstractConverter.java" package ="storage" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "2.087" stddev = "1.863" max = "7">
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="7"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="7"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="6"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="3"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="2"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="2"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="2"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="2"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="2"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="2"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="2"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="2"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="1"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="1"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="1"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="1"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="1"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="1"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="1"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="1"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="1"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="7"/>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "3.571" stddev = "2.611" max = "8">
+         <Value name="src.model" package ="src.model" value ="10"/>
+         <Value name="model" package ="model" value ="8"/>
+         <Value name="src.datatransfer" package ="src.datatransfer" value ="8"/>
+         <Value name="main" package ="main" value ="6"/>
+         <Value name="datatransfer" package ="datatransfer" value ="5"/>
+         <Value name="exception" package ="exception" value ="3"/>
+         <Value name="src.storage" package ="src.storage" value ="3"/>
+         <Value name="src.logic" package ="src.logic" value ="2"/>
+         <Value name="logic" package ="logic" value ="1"/>
+         <Value name="src.ui" package ="src.ui" value ="1"/>
+         <Value name="storage" package ="storage" value ="1"/>
+         <Value name="ui" package ="ui" value ="1"/>
+         <Value name="datatransfer" package ="datatransfer" value ="0"/>
+         <Value name="logic" package ="logic" value ="0"/>
+         <Value name="model" package ="model" value ="0"/>
+         <Value name="storage" package ="storage" value ="0"/>
+         <Value name="datatransfer.copy" package ="datatransfer.copy" value ="0"/>
+         <Value name="test" package ="test" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="datatransfer" package ="datatransfer" value ="0"/>
+         <Value name="logic" package ="logic" value ="0"/>
+         <Value name="model" package ="model" value ="0"/>
+         <Value name="storage" package ="storage" value ="0"/>
+         <Value name="datatransfer" package ="datatransfer" value ="0"/>
+         <Value name="datatransfer.copy" package ="datatransfer.copy" value ="0"/>
+         <Value name="exception" package ="exception" value ="0"/>
+         <Value name="logic" package ="logic" value ="0"/>
+         <Value name="main" package ="main" value ="0"/>
+         <Value name="model" package ="model" value ="0"/>
+         <Value name="src.datatransfer" package ="src.datatransfer" value ="0"/>
+         <Value name="src.logic" package ="src.logic" value ="0"/>
+         <Value name="src.model" package ="src.model" value ="0"/>
+         <Value name="src.storage" package ="src.storage" value ="0"/>
+         <Value name="src.ui" package ="src.ui" value ="0"/>
+         <Value name="storage" package ="storage" value ="0"/>
+         <Value name="test" package ="test" value ="0"/>
+         <Value name="ui" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.761" stddev = "1.532" max = "9">
+         <Value name="getActionForMessage" source ="UIAction.java" package ="datatransfer.copy" value ="9"/>
+         <Value name="getActionForMessage" source ="UIAction.java" package ="datatransfer" value ="9"/>
+         <Value name="followUpAction" source ="ChatClientUI.java" package ="ui" value ="9"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="7"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="7"/>
+         <Value name="followUpAction" source ="ClientUI.java" package ="src.ui" value ="7"/>
+         <Value name="followUpAction" source ="ClientUI.java" package ="ui" value ="7"/>
+         <Value name="followUpAction" source ="MainScreen.java" package ="ui" value ="7"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="5"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="5"/>
+         <Value name="getMessage" source ="Logic.java" package ="logic" value ="5"/>
+         <Value name="parseAndValidateCommand" source ="Logic.java" package ="logic" value ="5"/>
+         <Value name="attemptToLogin" source ="ChatClient.java" package ="main" value ="5"/>
+         <Value name="attemptToLogin" source ="Client.java" package ="main" value ="5"/>
+         <Value name="equalsNullable" source ="ChatMessage.java" package ="model" value ="5"/>
+         <Value name="addMessageTo" source ="Model.java" package ="model" value ="5"/>
+         <Value name="getMessage" source ="Logic.java" package ="src.logic" value ="5"/>
+         <Value name="parseAndValidateCommand" source ="Logic.java" package ="src.logic" value ="5"/>
+         <Value name="parseAndSendCommand" source ="Logic.java" package ="logic" value ="4"/>
+         <Value name="addMessageFrom" source ="Model.java" package ="model" value ="4"/>
+         <Value name="convertMessagesList" source ="FileLoader.java" package ="src.storage" value ="3"/>
+         <Value name="convertMessagesMap" source ="FileLoader.java" package ="src.storage" value ="3"/>
+         <Value name="convertMessage" source ="FileLoader.java" package ="src.storage" value ="3"/>
+         <Value name="convertMessagesList" source ="FileLoader.java" package ="storage" value ="3"/>
+         <Value name="convertMessagesMap" source ="FileLoader.java" package ="storage" value ="3"/>
+         <Value name="convertMessage" source ="FileLoader.java" package ="storage" value ="3"/>
+         <Value name="deleteFileIfExists" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="parseAndValidateCommandSuccessfully" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="parseAndValidateCommandWithoutSuccess" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="delete" source ="FileSaveTest.java" package ="storage" value ="2"/>
+         <Value name="getMessageSenderAndContent" source ="Message.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="getOnlineUsers" source ="Message.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="getMessageSenderAndContent" source ="Message.java" package ="datatransfer" value ="2"/>
+         <Value name="getOnlineUsers" source ="Message.java" package ="datatransfer" value ="2"/>
+         <Value name="validateHailCommandFormat" source ="Logic.java" package ="logic" value ="2"/>
+         <Value name="validateIdenCommandFormat" source ="Logic.java" package ="logic" value ="2"/>
+         <Value name="validateMesgCommandFormat" source ="Logic.java" package ="logic" value ="2"/>
+         <Value name="deleteFileIfExists" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="parseAndValidateCommandSuccessfully" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="parseAndValidateCommandWithoutSuccess" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="2"/>
+         <Value name="continueToMainActivity" source ="ChatClient.java" package ="main" value ="2"/>
+         <Value name="sendCommand" source ="ChatClient.java" package ="main" value ="2"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="2"/>
+         <Value name="getActionNeeded" source ="Client.java" package ="main" value ="2"/>
+         <Value name="sendCommand" source ="Client.java" package ="main" value ="2"/>
+         <Value name="equals" source ="ChatMessage.java" package ="model" value ="2"/>
+         <Value name="getMessagesToAndFrom" source ="Model.java" package ="model" value ="2"/>
+         <Value name="parseAndSendCommand" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="validateHailCommandFormat" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="validateIdenCommandFormat" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="validateMesgCommandFormat" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="getString" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="load" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="readFromFile" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="initFont" source ="ClientUI.java" package ="src.ui" value ="2"/>
+         <Value name="getString" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="load" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="readFromFile" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="delete" source ="FileSaveTest.java" package ="storage" value ="2"/>
+         <Value name="convertMessagesList" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="convertMessage" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="save" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="paintComponent" source ="AbstractTextField.java" package ="ui" value ="2"/>
+         <Value name="changeChatPartner" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="initFont" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="refreshMessagePanel" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="refreshUserList" source ="ChatClientUI.java" package ="ui" value ="2"/>
+         <Value name="initFont" source ="ClientUI.java" package ="ui" value ="2"/>
+         <Value name="changeChatPartner" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="refreshMessagePanel" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="refreshUserList" source ="MainScreen.java" package ="ui" value ="2"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="setUp" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="tearDown" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testGetMessage" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testParseCommand" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="assertFileEquals" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="deleteTestFiles" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFilePath" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="setUp" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="tearDown" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="testSaveJsonNull" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="testSaveJsonStandard" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getCommandContent" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandFullContent" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandType" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessageContent" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessageType" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isChatMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isListMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isMessageSentMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="isQuitMessage" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessage" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getType" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getCommandContent" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="getCommandFullContent" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="getCommandType" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessageContent" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessageType" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isChatMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isListMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isMessageSentMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="isQuitMessage" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer" value ="1"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessage" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="getType" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getActionNeeded" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getMessage" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="getUsersList" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="setUp" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="tearDown" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testGetMessage" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="testParseCommand" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="isUsernameInWrongFormat" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="continueToMainActivity" source ="Client.java" package ="main" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Client.java" package ="main" value ="1"/>
+         <Value name="isUsernameInWrongFormat" source ="Client.java" package ="main" value ="1"/>
+         <Value name="main" source ="Runner.java" package ="main" value ="1"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="compareTo" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getMessage" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getRecipient" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getSender" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="getTimestamp" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="isInvalid" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="model" value ="1"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="1"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getPartnerToMessagesMap" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getUsersList" source ="Model.java" package ="model" value ="1"/>
+         <Value name="updateUserList" source ="Model.java" package ="model" value ="1"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="model" value ="1"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getActionNeeded" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getMessage" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="getUsersList" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="readFileContent" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="addContentPanel" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayConnectionErrorScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayMainScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="initMainFrame" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="presentToUser" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="convertMessagesList" source ="AbstractConverter.java" package ="storage" value ="1"/>
+         <Value name="convertMessagesMap" source ="AbstractConverter.java" package ="storage" value ="1"/>
+         <Value name="convertMessage" source ="AbstractConverter.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="readFileContent" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="assertFileEquals" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="deleteTestFiles" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFilePath" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="setUp" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="tearDown" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="testSaveJsonNull" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="testSaveJsonStandard" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="convertMessagesMap" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="writeToFile" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="test" value ="1"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="test" value ="1"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="test" value ="1"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="test" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="test" value ="1"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="test" value ="1"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="test" value ="1"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="test" value ="1"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="test" value ="1"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="1"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="BroadcastAction.java" package ="ui" value ="1"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addBroadcastTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addConnectionUnavailableText" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addContentPanel" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToBroadcastTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToPrivateChatTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToUsernameField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addErrorMessagePlaceholder" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addGoodbyeText" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addLogMessageDisplay" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addMessagesPanel" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addPrivateChatTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addQuitButton" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addRefreshButton" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addUsernameDisplay" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addUsernameField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addUsersPanel" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addWelcomeMessage" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="changeToMainScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayConnectionErrorScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="initMainFrame" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="presentToUser" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="printUsernameResponse" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="1"/>
+         <Value name="setPlaceholderMsg" source ="ChatTextField.java" package ="ui" value ="1"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="addContentPanel" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayConnectionErrorScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayMainScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="initMainFrame" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="presentToUser" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="1"/>
+         <Value name="addConnectionUnavailableText" source ="ConnectionErrorScreen.java" package ="ui" value ="1"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="1"/>
+         <Value name="addGoodbyeText" source ="GoodbyeScreen.java" package ="ui" value ="1"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="LoginAction.java" package ="ui" value ="1"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToUsernameField" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addErrorMessagePlaceholder" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addUsernameField" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addWelcomeMessage" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="printUsernameResponse" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addBroadcastTextField" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToPrivateChatTextField" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addLogMessageDisplay" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addMessagesPanel" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addPrivateChatTextField" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addQuitButton" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addRefreshButton" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addUsernameDisplay" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addUsersPanel" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="PrivateChatAction.java" package ="ui" value ="1"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="QuitButtonAction.java" package ="ui" value ="1"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="RefreshButtonAction.java" package ="ui" value ="1"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="1233"/>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "0.342" stddev = "0.297" max = "0.8">
+         <Value name="datatransfer" package ="datatransfer" value ="1"/>
+         <Value name="logic" package ="logic" value ="1"/>
+         <Value name="model" package ="model" value ="1"/>
+         <Value name="storage" package ="storage" value ="1"/>
+         <Value name="datatransfer.copy" package ="datatransfer.copy" value ="1"/>
+         <Value name="test" package ="test" value ="1"/>
+         <Value name="src.ui" package ="src.ui" value ="0.8"/>
+         <Value name="ui" package ="ui" value ="0.8"/>
+         <Value name="storage" package ="storage" value ="0.667"/>
+         <Value name="logic" package ="logic" value ="0.5"/>
+         <Value name="src.storage" package ="src.storage" value ="0.4"/>
+         <Value name="src.logic" package ="src.logic" value ="0.333"/>
+         <Value name="datatransfer" package ="datatransfer" value ="0.286"/>
+         <Value name="src.datatransfer" package ="src.datatransfer" value ="0.2"/>
+         <Value name="main" package ="main" value ="0.143"/>
+         <Value name="exception" package ="exception" value ="0"/>
+         <Value name="model" package ="model" value ="0"/>
+         <Value name="src.model" package ="src.model" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "0.899" stddev = "0.877" max = "4">
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="4"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="3"/>
+         <Value name="addMessageFrom" source ="Model.java" package ="model" value ="3"/>
+         <Value name="addMessageTo" source ="Model.java" package ="model" value ="3"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="3"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="3"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="3"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="3"/>
+         <Value name="assertFileEquals" source ="FileSaveTest.java" package ="storage" value ="2"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="getActionForMessage" source ="UIAction.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="2"/>
+         <Value name="getActionForMessage" source ="UIAction.java" package ="datatransfer" value ="2"/>
+         <Value name="getMessage" source ="Logic.java" package ="logic" value ="2"/>
+         <Value name="equalsNullable" source ="ChatMessage.java" package ="model" value ="2"/>
+         <Value name="isInvalid" source ="ChatMessage.java" package ="model" value ="2"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="2"/>
+         <Value name="getMessage" source ="Logic.java" package ="src.logic" value ="2"/>
+         <Value name="convertMessagesList" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="convertMessage" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="getString" source ="FileLoader.java" package ="src.storage" value ="2"/>
+         <Value name="convertMessagesList" source ="AbstractConverter.java" package ="storage" value ="2"/>
+         <Value name="convertMessage" source ="AbstractConverter.java" package ="storage" value ="2"/>
+         <Value name="convertMessagesList" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="convertMessage" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="getString" source ="FileLoader.java" package ="storage" value ="2"/>
+         <Value name="assertFileEquals" source ="FileSaveTest.java" package ="storage" value ="2"/>
+         <Value name="convertMessagesList" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="convertMessage" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="save" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="writeToFile" source ="FileSaver.java" package ="storage" value ="2"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="2"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="2"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="2"/>
+         <Value name="deleteFileIfExists" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="parseAndValidateCommandSuccessfully" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="parseAndValidateCommandWithoutSuccess" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="delete" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFilePath" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getMessageSenderAndContent" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="getOnlineUsers" source ="Message.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="1"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessageSenderAndContent" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="getOnlineUsers" source ="Message.java" package ="datatransfer" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="parseAndSendCommand" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="parseAndValidateCommand" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="validateHailCommandFormat" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="validateIdenCommandFormat" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="validateMesgCommandFormat" source ="Logic.java" package ="logic" value ="1"/>
+         <Value name="deleteFileIfExists" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="parseAndValidateCommandSuccessfully" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="parseAndValidateCommandWithoutSuccess" source ="LogicTest.java" package ="logic" value ="1"/>
+         <Value name="attemptToLogin" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="continueToMainActivity" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="isUsernameInWrongFormat" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="sendCommand" source ="ChatClient.java" package ="main" value ="1"/>
+         <Value name="attemptToLogin" source ="Client.java" package ="main" value ="1"/>
+         <Value name="continueToMainActivity" source ="Client.java" package ="main" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Client.java" package ="main" value ="1"/>
+         <Value name="isUsernameInWrongFormat" source ="Client.java" package ="main" value ="1"/>
+         <Value name="sendCommand" source ="Client.java" package ="main" value ="1"/>
+         <Value name="main" source ="Runner.java" package ="main" value ="1"/>
+         <Value name="compareTo" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="equals" source ="ChatMessage.java" package ="model" value ="1"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Model.java" package ="model" value ="1"/>
+         <Value name="updateUserList" source ="Model.java" package ="model" value ="1"/>
+         <Value name="getMessagesToAndFrom" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="parseAndSendCommand" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="parseAndValidateCommand" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="validateHailCommandFormat" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="validateIdenCommandFormat" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="validateMesgCommandFormat" source ="Logic.java" package ="src.logic" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="convertMessagesMap" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="load" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="readFileContent" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="readFromFile" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="displayMainScreen" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="followUpAction" source ="ClientUI.java" package ="src.ui" value ="1"/>
+         <Value name="convertMessagesMap" source ="AbstractConverter.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="storage" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="convertMessagesMap" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="load" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="readFileContent" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="readFromFile" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="delete" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFilePath" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileSaveTest.java" package ="storage" value ="1"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="convertMessagesMap" source ="FileSaver.java" package ="storage" value ="1"/>
+         <Value name="getFile" source ="FileLoadTest.java" package ="test" value ="1"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="1"/>
+         <Value name="paintComponent" source ="AbstractTextField.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="BroadcastAction.java" package ="ui" value ="1"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToBroadcastTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToPrivateChatTextField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToUsernameField" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addGoodbyeText" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addUsernameDisplay" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="addWelcomeMessage" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="changeToMainScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="followUpAction" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="printUsernameResponse" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="refreshUserList" source ="ChatClientUI.java" package ="ui" value ="1"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="1"/>
+         <Value name="setPlaceholderMsg" source ="ChatTextField.java" package ="ui" value ="1"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayGoodbyeScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayLoginScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="displayMainScreen" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="followUpAction" source ="ClientUI.java" package ="ui" value ="1"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="1"/>
+         <Value name="addGoodbyeText" source ="GoodbyeScreen.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="LoginAction.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToUsernameField" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addWelcomeMessage" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="printUsernameResponse" source ="LoginScreen.java" package ="ui" value ="1"/>
+         <Value name="addEnterListenerToPrivateChatTextField" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="addUsernameDisplay" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="followUpAction" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="refreshUserList" source ="MainScreen.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="PrivateChatAction.java" package ="ui" value ="1"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="QuitButtonAction.java" package ="ui" value ="1"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="1"/>
+         <Value name="actionPerformed" source ="RefreshButtonAction.java" package ="ui" value ="1"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="setUp" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="tearDown" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="testGetMessage" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="testParseCommand" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="deleteTestFiles" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="setUp" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="tearDown" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="testSaveJsonNull" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="testSaveJsonStandard" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="getCommandContent" source ="Command.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="getCommandFullContent" source ="Command.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="getCommandType" source ="Command.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="getMessageContent" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="getMessageType" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="isChatMessage" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="isListMessage" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="isMessageSentMessage" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="isQuitMessage" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="getMessage" source ="UIAction.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="getType" source ="UIAction.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="getCommandContent" source ="Command.java" package ="datatransfer" value ="0"/>
+         <Value name="getCommandFullContent" source ="Command.java" package ="datatransfer" value ="0"/>
+         <Value name="getCommandType" source ="Command.java" package ="datatransfer" value ="0"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="getMessageContent" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="getMessageType" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="isChatMessage" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="isListMessage" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="isMessageSentMessage" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="isQuitMessage" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="getMessage" source ="UIAction.java" package ="datatransfer" value ="0"/>
+         <Value name="getType" source ="UIAction.java" package ="datatransfer" value ="0"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="getActionNeeded" source ="Logic.java" package ="logic" value ="0"/>
+         <Value name="getMessage" source ="Logic.java" package ="logic" value ="0"/>
+         <Value name="getUsersList" source ="Logic.java" package ="logic" value ="0"/>
+         <Value name="setUp" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="tearDown" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="testGetMessage" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="testParseCommand" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="0"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="0"/>
+         <Value name="getActionNeeded" source ="Client.java" package ="main" value ="0"/>
+         <Value name="getMessage" source ="ChatMessage.java" package ="model" value ="0"/>
+         <Value name="getRecipient" source ="ChatMessage.java" package ="model" value ="0"/>
+         <Value name="getSender" source ="ChatMessage.java" package ="model" value ="0"/>
+         <Value name="getTimestamp" source ="ChatMessage.java" package ="model" value ="0"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="getPartnerToMessagesMap" source ="Model.java" package ="model" value ="0"/>
+         <Value name="getUsersList" source ="Model.java" package ="model" value ="0"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="getActionNeeded" source ="Logic.java" package ="src.logic" value ="0"/>
+         <Value name="getMessage" source ="Logic.java" package ="src.logic" value ="0"/>
+         <Value name="getUsersList" source ="Logic.java" package ="src.logic" value ="0"/>
+         <Value name="addContentPanel" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="displayConnectionErrorScreen" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="initFont" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="initMainFrame" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="presentToUser" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="deleteTestFiles" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="setUp" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="tearDown" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="testSaveJsonNull" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="testSaveJsonStandard" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="testComparison" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="testEquality" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="testInvalidity" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="testParseCommand" source ="CommandTest.java" package ="test" value ="0"/>
+         <Value name="testLoadJsonMalformedFile" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="testLoadJsonNonExistentFile" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="testLoadJsonNullFields" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="testLoadJsonStandard" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="testMessageExtraction" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="testMessageTypes" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="testParseMessage" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="testAddMessageFrom" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="testAddMessageTo" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="testMixtureOfToAndFrom" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="testNullValues" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="testGetActionForMessage" source ="UIActionTest.java" package ="test" value ="0"/>
+         <Value name="addBroadcastTextField" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addConnectionUnavailableText" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addContentPanel" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addErrorMessagePlaceholder" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addLogMessageDisplay" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addMessagesPanel" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addPrivateChatTextField" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addQuitButton" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addRefreshButton" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addUsernameField" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addUsersPanel" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="changeChatPartner" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="displayConnectionErrorScreen" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="initFont" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="initMainFrame" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="presentToUser" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="refreshMessagePanel" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="addContentPanel" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="displayConnectionErrorScreen" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="initFont" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="initMainFrame" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="presentToUser" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="addConnectionUnavailableText" source ="ConnectionErrorScreen.java" package ="ui" value ="0"/>
+         <Value name="addErrorMessagePlaceholder" source ="LoginScreen.java" package ="ui" value ="0"/>
+         <Value name="addUsernameField" source ="LoginScreen.java" package ="ui" value ="0"/>
+         <Value name="addBroadcastTextField" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="addLogMessageDisplay" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="addMessagesPanel" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="addPrivateChatTextField" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="addQuitButton" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="addRefreshButton" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="addUsersPanel" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="changeChatPartner" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="refreshMessagePanel" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0.238" stddev = "0.286" max = "0.813">
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="0.888"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="0.813"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="0.667"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="0.667"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="0.625"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="0.6"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="0.567"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="0.556"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="0.536"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="0.5"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="0.5"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="0.5"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="0.5"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="0.45"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="0.438"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="0.25"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="0.25"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="0"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="0"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="0"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="0"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="0"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="0"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="0"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="0"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="0"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="0"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="0"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="0"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="0"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "1.429" stddev = "1.294" max = "4">
+         <Value name="datatransfer.copy" package ="datatransfer.copy" value ="5"/>
+         <Value name="src.ui" package ="src.ui" value ="4"/>
+         <Value name="ui" package ="ui" value ="4"/>
+         <Value name="datatransfer" package ="datatransfer" value ="3"/>
+         <Value name="model" package ="model" value ="2"/>
+         <Value name="storage" package ="storage" value ="2"/>
+         <Value name="datatransfer" package ="datatransfer" value ="2"/>
+         <Value name="src.datatransfer" package ="src.datatransfer" value ="2"/>
+         <Value name="src.storage" package ="src.storage" value ="2"/>
+         <Value name="storage" package ="storage" value ="2"/>
+         <Value name="logic" package ="logic" value ="1"/>
+         <Value name="logic" package ="logic" value ="1"/>
+         <Value name="main" package ="main" value ="1"/>
+         <Value name="src.logic" package ="src.logic" value ="1"/>
+         <Value name="exception" package ="exception" value ="0"/>
+         <Value name="model" package ="model" value ="0"/>
+         <Value name="src.model" package ="src.model" value ="0"/>
+         <Value name="test" package ="test" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "5" avg = "0.217" stddev = "0.507" max = "2">
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="6"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="6"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="3"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="3"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="2"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="2"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="1"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="1"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="0"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="0"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="0"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="0"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="0"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="0"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="0"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="0"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="0"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="0"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="0"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="0"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="0"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="0"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="0"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="0"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="0"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="0"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0.596" stddev = "0.382" max = "1">
+         <Value name="exception" package ="exception" value ="1"/>
+         <Value name="model" package ="model" value ="1"/>
+         <Value name="src.model" package ="src.model" value ="1"/>
+         <Value name="main" package ="main" value ="0.857"/>
+         <Value name="src.datatransfer" package ="src.datatransfer" value ="0.8"/>
+         <Value name="datatransfer" package ="datatransfer" value ="0.714"/>
+         <Value name="src.logic" package ="src.logic" value ="0.667"/>
+         <Value name="logic" package ="logic" value ="0.5"/>
+         <Value name="src.storage" package ="src.storage" value ="0.267"/>
+         <Value name="src.ui" package ="src.ui" value ="0.1"/>
+         <Value name="ui" package ="ui" value ="0.1"/>
+         <Value name="datatransfer" package ="datatransfer" value ="0"/>
+         <Value name="logic" package ="logic" value ="0"/>
+         <Value name="model" package ="model" value ="0"/>
+         <Value name="storage" package ="storage" value ="0"/>
+         <Value name="datatransfer.copy" package ="datatransfer.copy" value ="0"/>
+         <Value name="storage" package ="storage" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0.062" stddev = "0.116" max = "0.333">
+         <Value name="src.storage" package ="src.storage" value ="0.333"/>
+         <Value name="storage" package ="storage" value ="0.333"/>
+         <Value name="src.ui" package ="src.ui" value ="0.1"/>
+         <Value name="ui" package ="ui" value ="0.1"/>
+         <Value name="datatransfer" package ="datatransfer" value ="0"/>
+         <Value name="logic" package ="logic" value ="0"/>
+         <Value name="model" package ="model" value ="0"/>
+         <Value name="storage" package ="storage" value ="0"/>
+         <Value name="datatransfer" package ="datatransfer" value ="0"/>
+         <Value name="datatransfer.copy" package ="datatransfer.copy" value ="0"/>
+         <Value name="exception" package ="exception" value ="0"/>
+         <Value name="logic" package ="logic" value ="0"/>
+         <Value name="main" package ="main" value ="0"/>
+         <Value name="model" package ="model" value ="0"/>
+         <Value name="src.datatransfer" package ="src.datatransfer" value ="0"/>
+         <Value name="src.logic" package ="src.logic" value ="0"/>
+         <Value name="src.model" package ="src.model" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0.005" stddev = "0.023" max = "0.111">
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="0.111"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="0"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="0"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="0"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="0"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="0"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="0"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="0"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="0"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="0"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="0"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="0"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="0"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="0"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="0"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="0"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="0"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="0"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="0"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="0"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="0"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="0"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="0"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="0"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "192" avg = "8.348" stddev = "7.789" max = "25">
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="42"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="25"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="23"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="23"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="17"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="17"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="17"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="17"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="16"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="15"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="15"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="14"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="14"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="13"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="12"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="12"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="10"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="10"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="10"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="10"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="10"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="10"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="9"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="6"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="5"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="5"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="4"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="4"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="4"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="3"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="3"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="3"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="3"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="3"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="3"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="3"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="3"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="3"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="2"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="2"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="2"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="2"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="2"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="2"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="2"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="2"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="1"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="1"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="1"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="1"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="1"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="0"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="0"/>
+         <Value name="Params" source ="Params.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "50" avg = "2.174" stddev = "6.26" max = "27">
+         <Value name="Params" source ="Params.java" package ="ui" value ="27"/>
+         <Value name="Const" source ="Const.java" package ="main" value ="16"/>
+         <Value name="AbstractConverter" source ="AbstractConverter.java" package ="storage" value ="4"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="src.ui" value ="3"/>
+         <Value name="ChatClientUI" source ="ChatClientUI.java" package ="ui" value ="3"/>
+         <Value name="ClientUI" source ="ClientUI.java" package ="ui" value ="3"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="2"/>
+         <Value name="LogicTest" source ="LogicTest.java" package ="logic" value ="2"/>
+         <Value name="FileSaveTest" source ="FileSaveTest.java" package ="storage" value ="2"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer.copy" value ="0"/>
+         <Value name="Command" source ="Command.java" package ="datatransfer" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="datatransfer" value ="0"/>
+         <Value name="Message" source ="Message.java" package ="datatransfer" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="datatransfer" value ="0"/>
+         <Value name="UIAction" source ="UIAction.java" package ="datatransfer" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="datatransfer" value ="0"/>
+         <Value name="InvalidCommandException" source ="InvalidCommandException.java" package ="exception" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="logic" value ="0"/>
+         <Value name="ChatClient" source ="ChatClient.java" package ="main" value ="0"/>
+         <Value name="Client" source ="Client.java" package ="main" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="main" value ="0"/>
+         <Value name="ChatMessage" source ="ChatMessage.java" package ="model" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="model" value ="0"/>
+         <Value name="Model" source ="Model.java" package ="model" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="model" value ="0"/>
+         <Value name="Logic" source ="Logic.java" package ="src.logic" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="src.storage" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="storage" value ="0"/>
+         <Value name="FileLoader" source ="FileLoader.java" package ="storage" value ="0"/>
+         <Value name="FileSaver" source ="FileSaver.java" package ="storage" value ="0"/>
+         <Value name="ChatMessageTest" source ="ChatMessageTest.java" package ="test" value ="0"/>
+         <Value name="CommandTest" source ="CommandTest.java" package ="test" value ="0"/>
+         <Value name="FileLoadTest" source ="FileLoadTest.java" package ="test" value ="0"/>
+         <Value name="MessageTest" source ="MessageTest.java" package ="test" value ="0"/>
+         <Value name="ModelTest" source ="ModelTest.java" package ="test" value ="0"/>
+         <Value name="UIActionTest" source ="UIActionTest.java" package ="test" value ="0"/>
+         <Value name="AbstractTextField" source ="AbstractTextField.java" package ="ui" value ="0"/>
+         <Value name="ApplicationScreen" source ="ApplicationScreen.java" package ="ui" value ="0"/>
+         <Value name="BroadcastAction" source ="BroadcastAction.java" package ="ui" value ="0"/>
+         <Value name="ChatTextField" source ="ChatTextField.java" package ="ui" value ="0"/>
+         <Value name="ConnectionErrorScreen" source ="ConnectionErrorScreen.java" package ="ui" value ="0"/>
+         <Value name="GoodbyeScreen" source ="GoodbyeScreen.java" package ="ui" value ="0"/>
+         <Value name="LoginAction" source ="LoginAction.java" package ="ui" value ="0"/>
+         <Value name="LoginScreen" source ="LoginScreen.java" package ="ui" value ="0"/>
+         <Value name="MainScreen" source ="MainScreen.java" package ="ui" value ="0"/>
+         <Value name="PrivateChatAction" source ="PrivateChatAction.java" package ="ui" value ="0"/>
+         <Value name="QuitButtonAction" source ="QuitButtonAction.java" package ="ui" value ="0"/>
+         <Value name="RefreshButtonAction" source ="RefreshButtonAction.java" package ="ui" value ="0"/>
+         <Value name="UsernameField" source ="UsernameField.java" package ="ui" value ="0"/>
+      </Values>
+   </Metric>
+   </Metrics>

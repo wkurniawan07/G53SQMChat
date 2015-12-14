@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="src" type="Package" date="2015-12-14" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "1" avg = "0.333" stddev = "0.471" max = "1">
+         <Value name="Server" source ="Server.java" package ="src" value ="1"/>
+         <Value name="Connection" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "10" avg = "3.333" stddev = "3.399" max = "8">
+         <Value name="Connection" source ="Connection.java" package ="src" value ="8"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="2"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="Connection" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="0"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Value value="3"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "196" avg = "8.522" stddev = "7.773" max = "27">
+         <Value name="validateMessage" source ="Connection.java" package ="src" value ="27"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="22"/>
+         <Value name="mesg" source ="Connection.java" package ="src" value ="20"/>
+         <Value name="run" source ="Connection.java" package ="src" value ="19"/>
+         <Value name="quit" source ="Connection.java" package ="src" value ="16"/>
+         <Value name="iden" source ="Connection.java" package ="src" value ="15"/>
+         <Value name="list" source ="Connection.java" package ="src" value ="13"/>
+         <Value name="stat" source ="Connection.java" package ="src" value ="10"/>
+         <Value name="hail" source ="Connection.java" package ="src" value ="9"/>
+         <Value name="sendPrivateMessage" source ="Server.java" package ="src" value ="9"/>
+         <Value name="doesUserExist" source ="Server.java" package ="src" value ="7"/>
+         <Value name="getUserList" source ="Server.java" package ="src" value ="7"/>
+         <Value name="removeDeadUsers" source ="Server.java" package ="src" value ="6"/>
+         <Value name="Connection" source ="Connection.java" package ="src" value ="4"/>
+         <Value name="broadcastMessage" source ="Server.java" package ="src" value ="4"/>
+         <Value name="getState" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="getUserName" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="isRunning" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="messageForConnection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="sendOverConnection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="main" source ="Runner.java" package ="src" value ="1"/>
+         <Value name="finalize" source ="Server.java" package ="src" value ="1"/>
+         <Value name="getNumberOfUsers" source ="Server.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "22" avg = "7.333" stddev = "5.735" max = "14">
+         <Value name="Connection" source ="Connection.java" package ="src" value ="14"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="8"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.435" stddev = "0.712" max = "3">
+         <Value name="mesg" source ="Connection.java" package ="src" value ="3"/>
+         <Value name="run" source ="Connection.java" package ="src" value ="3"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="3"/>
+         <Value name="iden" source ="Connection.java" package ="src" value ="2"/>
+         <Value name="quit" source ="Connection.java" package ="src" value ="2"/>
+         <Value name="validateMessage" source ="Connection.java" package ="src" value ="2"/>
+         <Value name="removeDeadUsers" source ="Server.java" package ="src" value ="2"/>
+         <Value name="Connection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="getState" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="getUserName" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="hail" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="isRunning" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="list" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="messageForConnection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="sendOverConnection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="stat" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="main" source ="Runner.java" package ="src" value ="1"/>
+         <Value name="broadcastMessage" source ="Server.java" package ="src" value ="1"/>
+         <Value name="doesUserExist" source ="Server.java" package ="src" value ="1"/>
+         <Value name="finalize" source ="Server.java" package ="src" value ="1"/>
+         <Value name="getNumberOfUsers" source ="Server.java" package ="src" value ="1"/>
+         <Value name="getUserList" source ="Server.java" package ="src" value ="1"/>
+         <Value name="sendPrivateMessage" source ="Server.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1" stddev = "0" max = "1">
+         <Value name="Connection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="1"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Value value="0"/>
+   </Metric>
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "2.348" stddev = "1.808" max = "8">
+         <Value name="validateMessage" source ="Connection.java" package ="src" value ="8"/>
+         <Value name="mesg" source ="Connection.java" package ="src" value ="5"/>
+         <Value name="iden" source ="Connection.java" package ="src" value ="4"/>
+         <Value name="quit" source ="Connection.java" package ="src" value ="4"/>
+         <Value name="run" source ="Connection.java" package ="src" value ="4"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="4"/>
+         <Value name="hail" source ="Connection.java" package ="src" value ="3"/>
+         <Value name="list" source ="Connection.java" package ="src" value ="3"/>
+         <Value name="stat" source ="Connection.java" package ="src" value ="3"/>
+         <Value name="removeDeadUsers" source ="Server.java" package ="src" value ="3"/>
+         <Value name="Connection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="getState" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="getUserName" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="isRunning" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="messageForConnection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="sendOverConnection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="main" source ="Runner.java" package ="src" value ="1"/>
+         <Value name="broadcastMessage" source ="Server.java" package ="src" value ="1"/>
+         <Value name="doesUserExist" source ="Server.java" package ="src" value ="1"/>
+         <Value name="finalize" source ="Server.java" package ="src" value ="1"/>
+         <Value name="getNumberOfUsers" source ="Server.java" package ="src" value ="1"/>
+         <Value name="getUserList" source ="Server.java" package ="src" value ="1"/>
+         <Value name="sendPrivateMessage" source ="Server.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="276"/>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Value value="0"/>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "0.609" stddev = "0.642" max = "2">
+         <Value name="Connection" source ="Connection.java" package ="src" value ="2"/>
+         <Value name="sendPrivateMessage" source ="Server.java" package ="src" value ="2"/>
+         <Value name="hail" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="iden" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="mesg" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="messageForConnection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="sendOverConnection" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="validateMessage" source ="Connection.java" package ="src" value ="1"/>
+         <Value name="main" source ="Runner.java" package ="src" value ="1"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="1"/>
+         <Value name="broadcastMessage" source ="Server.java" package ="src" value ="1"/>
+         <Value name="doesUserExist" source ="Server.java" package ="src" value ="1"/>
+         <Value name="getState" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="getUserName" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="isRunning" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="list" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="quit" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="run" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="stat" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="finalize" source ="Server.java" package ="src" value ="0"/>
+         <Value name="getNumberOfUsers" source ="Server.java" package ="src" value ="0"/>
+         <Value name="getUserList" source ="Server.java" package ="src" value ="0"/>
+         <Value name="removeDeadUsers" source ="Server.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0.405" stddev = "0.3" max = "0.716">
+         <Value name="Connection" source ="Connection.java" package ="src" value ="0.716"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="0.5"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Value value="0"/>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "1" avg = "0.333" stddev = "0.471" max = "1">
+         <Value name="Runner" source ="Runner.java" package ="src" value ="1"/>
+         <Value name="Connection" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Value value="0"/>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0.042" stddev = "0.059" max = "0.125">
+         <Value name="Server" source ="Server.java" package ="src" value ="0.125"/>
+         <Value name="Connection" source ="Connection.java" package ="src" value ="0"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "54" avg = "18" stddev = "16.31" max = "40">
+         <Value name="Connection" source ="Connection.java" package ="src" value ="40"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="13"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "4" avg = "1.333" stddev = "0.943" max = "2">
+         <Value name="Connection" source ="Connection.java" package ="src" value ="2"/>
+         <Value name="Runner" source ="Runner.java" package ="src" value ="2"/>
+         <Value name="Server" source ="Server.java" package ="src" value ="0"/>
+      </Values>
+   </Metric>
+   </Metrics>
